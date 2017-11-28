@@ -7,11 +7,19 @@ body {
   color: #242323;
 }
 
-#kuyalogo {
-  
+/* NAVBAR STYLES
+------------------------------------------------ */
+
+.navbar-nav {
+  margin-left: 21rem;
+  font-size: 150%;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-
+.nav-item {
+  margin-left: 2rem;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -35,7 +43,6 @@ body {
   display:block;
   height: 100%;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -85,8 +92,8 @@ body {
   }
 }
 
-@media (min-width: 62em) {
+/* @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
+} */
